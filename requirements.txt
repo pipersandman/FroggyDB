@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+openai
+motor
+pymongo
+python-dotenv
+pydantic
+loguru
+chromadb
+pandas
+scikit-learn
+pytest
