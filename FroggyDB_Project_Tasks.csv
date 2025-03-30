@@ -1,0 +1,24 @@
+Title,Status,Labels,Description
+Initialize FastAPI project,To do,"backend,setup",Set up FastAPI project with a root route and health check.
+Connect to MongoDB,To do,"backend,database",Use Motor to connect FastAPI to MongoDB Atlas.
+Create .env structure,To do,"infra,env",Manage environment variables for OpenAI API keys and DB URI.
+Setup Git + .gitignore,To do,"infra,version-control",Add .gitignore and initialize Git repository.
+Upload and parse ChatGPT JSON,To do,"data-ingestion,ai",Allow user to import exported ChatGPT history and convert to structured format.
+Preprocess chat content,To do,"data-cleaning,nlp","Clean, deduplicate, and normalize imported chat messages."
+Store conversations in MongoDB,To do,database,Save parsed and tagged conversations to MongoDB with metadata.
+Log import results,To do,"logging,backend",Implement basic logging for import success/failure.
+Integrate OpenAI API,To do,"ai,openai","Use OpenAI API for summarization, tagging, and topic extraction."
+Generate vector embeddings,To do,"ai,embeddings",Convert conversations into semantic vectors for similarity matching.
+Store embeddings in Chroma,To do,"ai,semantic-search",Persist OpenAI embeddings into ChromaDB for search.
+Link related conversations,To do,"ai,matching",Use cosine similarity to find and connect related chats.
+Implement full-text search,To do,"search,backend",Enable basic keyword search on conversations.
+Add semantic search endpoint,To do,"search,ai",Allow querying by meaning using vector embeddings.
+Add filters by tag and date,To do,"search,ux","Filter results using tags, categories, or date range."
+Tag management API,To do,"tags,backend",Add CRUD functionality for tag creation and editing.
+Analyze user writing draft,To do,"ai,writing","Analyze user draft to extract structure, themes, and repetition."
+Suggest relevant past chats,To do,"ai,contextual-help",Match user draft to similar past conversations using semantic search.
+Generate insights across chats,To do,"ai,insights",Aggregate patterns and summaries from multiple related chats.
+Build Streamlit dashboard UI,To do,"frontend,streamlit",Create homepage showing stats and nav menu.
+Create Streamlit search interface,To do,"frontend,search","Design input bar, filters, and result area."
+Build writing assistant interface,To do,"frontend,ai-helper","Design area for user drafts, insights, and suggestions."
+Add visual tag browser,To do,"frontend,tags",Create page to browse and edit tags visually.
